@@ -11,11 +11,9 @@ This project focuses on lung cancer segmentation utilizing CT scan datasets. The
 
 4.Methodology
 
-5.Results
+5.How To Run
 
-6.How To Run
-
-7.Contributors
+6.Contributors
 
 # Background
 Lung cancer remains a significant health concern worldwide, and early detection through image segmentation can greatly assist in diagnosis and treatment planning. This project employs the UNET architecture, known for its ability to generate high-quality segmentations from medical imaging data.
@@ -29,14 +27,12 @@ The dataset used for this project comprises CT scan images of lung cancer patien
 # Methodology
 The lung cancer segmentation model is built using the UNET architecture, incorporating segmentation, deep learning techniques. This deep neural network is implemented with Keras functional API, which makes it extremely easy to experiment with different interesting architectures. 
 Sigmoid activation function makes sure that mask pixels are in [0, 1] range. The detailed methodology and code implementation can be found in the provided Jupyter Notebook.
+The model's performance metrics and visualized segmentation outputs are detailed in the Jupyter Notebook. The model is trained for 8 epochs.
 
 
 # Clone this repository.
 Follow the instructions in the Jupyter Notebook (file.ipynb) to set up the environment and preprocess the data.
 Execute the code cells in the notebook to train the model or perform inference.
-Results
-The model's performance metrics and visualized segmentation outputs are detailed in the Jupyter Notebook. The model is trained for 8 epochs.
-After 8 epochs, calculated accuracy is about 0.99.
 
 # Contributors
 B. Sai Ashrith Vardhan, Rajesh Mali, Rakesh Gonela
