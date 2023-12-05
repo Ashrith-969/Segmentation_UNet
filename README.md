@@ -4,12 +4,19 @@ This project focuses on lung cancer segmentation utilizing CT scan datasets. The
 
 # Table of Contents
 1.Background
+
 2.Dataset
+
 3.Model
+
 4.Methodology
+
 5.Results
+
 6.How To Run
+
 7.Contributors
+
 # Background
 Lung cancer remains a significant health concern worldwide, and early detection through image segmentation can greatly assist in diagnosis and treatment planning. This project employs the UNET architecture, known for its ability to generate high-quality segmentations from medical imaging data.
 
@@ -20,7 +27,8 @@ The dataset used for this project comprises CT scan images of lung cancer patien
 ![OpenAI Logo](UNET.jpg)
 
 # Methodology
-The lung cancer segmentation model is built using the UNET architecture, incorporating segmentation, deep learning techniques. This deep neural network is implemented with Keras functional API, which makes it extremely easy to experiment with different interesting architectures. Sigmoid activation function makes sure that mask pixels are in [0, 1] range. The detailed methodology and code implementation can be found in the provided Jupyter Notebook.
+The lung cancer segmentation model is built using the UNET architecture, incorporating segmentation, deep learning techniques. This deep neural network is implemented with Keras functional API, which makes it extremely easy to experiment with different interesting architectures. 
+Sigmoid activation function makes sure that mask pixels are in [0, 1] range. The detailed methodology and code implementation can be found in the provided Jupyter Notebook.
 
 
 # Clone this repository.
