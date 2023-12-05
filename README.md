@@ -17,7 +17,7 @@ Lung cancer remains a significant health concern worldwide, and early detection 
 The dataset used for this project comprises CT scan images of lung cancer patients. This dataset contains 20 CT scans of patients diagnosed with COVID-19 as well as segmentations of lungs and infections made by experts. The original dataset is taken from(https://www.kaggle.com/datasets/andrewmvd/covid19-ct-scans/data), downloaded it and done the pre-processing. Instructions on accessing and preprocessing the data are provided in the Jupyter Notebook.
 
 # Model
-![OpenAI Logo](UNET.png)
+![OpenAI Logo](UNET.jpg)
 
 # Methodology
 The lung cancer segmentation model is built using the UNET architecture, incorporating segmentation, deep learning techniques. This deep neural network is implemented with Keras functional API, which makes it extremely easy to experiment with different interesting architectures. Sigmoid activation function makes sure that mask pixels are in [0, 1] range. The detailed methodology and code implementation can be found in the provided Jupyter Notebook.
